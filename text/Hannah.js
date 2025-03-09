@@ -1,0 +1,7 @@
+let bioText = "Hey, I’m Hannah and I’m from Hawkes Bay. The creative arts has always been my main passion from drawing, painting and crafting to discovering design in high school. I’ve always loved the power design has to communicate, inspire and engage and I hope to do the same with my work as I continue my artistic journey. The past three years at the University of Waikato has taught me so many new skills and helped me extend my love for branding, illustration and more.";
+let productDescText = "My project “Maui’s Quest”, an interactive book, is targeted towards kids aged 7-10. The book is dedicated to the Department of Conservation New Zealand in recognition of their efforts to save marine mammals. The main characters are based on 3 of the most endangered marine mammals in New Zealand: the Maui dolphin, the Hector dolphin and the Orca whale. It follows the dolphin, Maui, through his quest to help save his friends from threats such as pollution and noise. I’m hoping that this book helps to raise awareness around the topic and helps spread the message to do our part to save the animals.";
+let bachelor ="Bachelor of __";
+let major = "Majoring In __";
+let projectName = "_Project Name_";
+let studentName = "_Student Name_";   
+let portfolio ="";

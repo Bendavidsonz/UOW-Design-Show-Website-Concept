@@ -1,0 +1,7 @@
+let bioText = "Ayobowan. I am Suwan an international student from Sri Lanka and a final year student studying a Bachelor of Design majoring in Media Design at the University of Waikato. Ever since I was young, I have been a very curious person. One thing I was always curious about but didn’t fully comprehend was digital media mainly movies and music videos and how they were made which led me to take up Media Design. Throughout my three years I have learned not only about video production but also about interface design and graphic design and have met many helpful people along the way.";
+let productDescText = "IMPERSONATE is a short film that follows the story of two people and their battle with depression and if they are able to overcome the hurdle or fall into despair. Me and my group mate Ravi went with this theme as we thought it would be a relatable topic for people around our age (18-25) especially in the modern world. With stress and personal circumstances people tend to fall into depression quickly but they fake being ok and put on a fake smile for the rest of the world to see, to show that they are not weak but in reality, they just need a helping hand. The title for the film was inspired by a quote from late actor and comedian Robin Williams “People don’t fake depression; they fake being ok”. IMPERSONATE is not just a story it’s also a message.";
+let bachelor ="Bachelor of __";
+let major = "Majoring In __";
+let projectName = "_Project Name_";
+let studentName = "_Student Name_";   
+let portfolio ="";

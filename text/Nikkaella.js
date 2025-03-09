@@ -1,0 +1,7 @@
+let bioText = "Hiya! I’m Nikkaella, a computer science student, but a designer at heart. Coming from the Philippines, a place where creativity thrives, I've always had a deep passion for the arts, whether it’s painting, drawing, or even dancing. I'm fortunate to be surrounded by people who encourage and inspire my creativity.<br>Throughout my studies, I’ve enjoyed exploring the intersections of technology and creativity. I like to believe that I can help bridge the gap between computer science and design, combining the precision of code with the endless possibilities of artistic expression. Over the past 3 years, I’ve developed a passion for UI/UX design and front-end development, which I hope to continue in my career.";
+let productDescText = "The \"Freshwater Future\" app is a New Zealand-focused educational tool designed to raise awareness about the impact of climate change on New Zealand's freshwater ecosystems. The app employs augmented reality (AR) to simulate climate change effects, including extreme droughts and floods, in the user's environment while providing educational facts about the consequences.<br>The goal is to inform high school students about the vulnerability of native species and biodiversity in freshwater bodies and encourage freshwater conservation efforts. The project's unique aspect is its interactive and visual approach to New Zealand-specific environmental issues.";
+let bachelor ="Bachelor of __";
+let major = "Majoring In __";
+let projectName = "_Project Name_";
+let studentName = "_Student Name_";   
+let portfolio ="";

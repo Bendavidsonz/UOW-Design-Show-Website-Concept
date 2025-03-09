@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 341 Web template by Nikkaella Lulu, 2024 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+
+    <!-- Javascript for the responsive topnav -->
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+</head>
+<body onload="pageLoad('students')">
+   <!--Noise overlay for entire page-->
+   <div id="overlay" class="noise"></div>
+
+   <!-- Responsive Top Nav -->
+   <nav class="topnav" id="myTopnav">
+       <div>
+           <a href="index.html" class="hover-underline-animation inactive">Home</a>
+           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+             </a>
+       </div>
+
+       <a href="students.html" class="hover-underline-animation">Students</a>
+       <a href="projects.html" class="hover-underline-animation inactive">Projects</a>
+       <a href="#contact" class="hover-underline-animation inactive">Contact</a>
+   </nav>
+
+        <!-- Main body, uses CSS grid, can have more nested divs -->
+    <div class="grid-container">
+        <!-- CSS Grid Side Nav -->
+        <!-- <div id="mySidenav" class="sidenav">
+            <a href="index.html">Home</a>
+            <a href="students.html" class="active">Students</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div> -->
+        
+        <!-- Main content from here downwards -->
+        <div class="grid-header">
+            <h1 class="header-h1">Students</h1>
+        </div>
+
+        <div class="grid-body">
+            <h2 class="ta-centre">Select a student to view their projects page.</h2>
+
+            <div class="flex-student-rows">
+                    <a href="student.html#Adam" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Adam Ettema</p>
+                        <img src="images/profiles/Adam1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Adam2.jpg';" onmouseout="this.src='images/profiles/Adam1.jpg';">
+                    </a>
+                    <a href="student.html#Allan" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Allan Ormsby</p>
+                        <img src="images/profiles/Allan1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Allan2.jpg';" onmouseout="this.src='images/profiles/Allan1.jpg';">
+                    </a>
+                    <a href="student.html#Anika" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Anika Stowers</p>
+                        <img src="images/profiles/Anika1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Anika2.jpg';" onmouseout="this.src='images/profiles/Anika1.jpg';">
+                    </a>
+                    <a href="student.html#Anita" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Anita Gross</p>
+                        <img src="images/profiles/Anita1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Anita2.jpg';" onmouseout="this.src='images/profiles/Anita1.jpg';">
+                    </a>
+                    <a href="student.html#Aria" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Aria Matthews</p>
+                        <img src="images/profiles/Aria1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Aria2.jpg';" onmouseout="this.src='images/profiles/Aria1.jpg';">
+                    </a>
+                    <a href="student.html#Armelle" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Armelle Tran</p>
+                        <img src="images/profiles/Armelle1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Armelle2.jpg';" onmouseout="this.src='images/profiles/Armelle1.jpg';">
+                    </a>
+                    <a href="student.html#Bella" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Bella Bay</p>
+                        <img src="images/profiles/Bella1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Bella2.jpg';" onmouseout="this.src='images/profiles/Bella1.jpg';">
+                    </a>
+                    <a href="student.html#Dana" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Dana Damian</p>
+                        <img src="images/profiles/Dana1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Dana2.jpg';" onmouseout="this.src='images/profiles/Dana1.jpg';">
+                    </a>
+                    <a href="student.html#Filly" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Filly Marin Arias</p>
+                        <img src="images/profiles/Filly1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Filly2.jpg';" onmouseout="this.src='images/profiles/Filly1.jpg';">
+                    </a>
+                    <a href="student.html#Hannah" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Hannah Bursnall</p>
+                        <img src="images/profiles/Hannah1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Hannah2.jpg';" onmouseout="this.src='images/profiles/Hannah1.jpg';">
+                    </a>
+                    <a href="student.html#Harper" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Harper Feng</p>
+                        <img src="images/profiles/Harper1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Harper2.jpg';" onmouseout="this.src='images/profiles/Harper1.jpg';">
+                    </a>
+                    <a href="student.html#Jacob" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jacob Kennedy</p>
+                        <img src="images/profiles/Jacob1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jacob2.jpg';" onmouseout="this.src='images/profiles/Jacob1.jpg';">
+                    </a>
+                    <a href="student.html#Jasmine" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jasmine Gorman</p>
+                        <img src="images/profiles/Jasmine1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jasmine2.jpg';" onmouseout="this.src='images/profiles/Jasmine1.jpg';">
+                    </a>
+                    <a href="student.html#Jay" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jay Cameron</p>
+                        <img src="images/profiles/Jay1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jay2.jpg';" onmouseout="this.src='images/profiles/Jay1.jpg';">
+                    </a>
+                    <a href="student.html#Jenit" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jenit Mathew</p>
+                        <img src="images/profiles/Jenit1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jenit2.jpg';" onmouseout="this.src='images/profiles/Jenit1.jpg';">
+                    </a>
+                    <a href="student.html#Jess" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jess James</p>
+                        <img src="images/profiles/Jess1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jess2.jpg';" onmouseout="this.src='images/profiles/Jess1.jpg';">
+                    </a>
+                    <a href="student.html#Jiake" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jiake Li</p>
+                        <img src="images/profiles/Jiake1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jiake2.jpg';" onmouseout="this.src='images/profiles/Jiake1.jpg';">
+                    </a>
+                    <a href="student.html#Jiejie" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Jiejie Zha</p>
+                        <img src="images/profiles/Jiejie1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Jiejie2.jpg';" onmouseout="this.src='images/profiles/Jiejie1.jpg';">
+                    </a>
+                    <a href="student.html#Kexin" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Kexin Song</p>
+                        <img src="images/profiles/Kexin1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Kexin2.jpg';" onmouseout="this.src='images/profiles/Kexin1.jpg';">
+                    </a>
+                    <a href="student.html#Mingze" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Mingze Ma</p>
+                        <img src="images/profiles/Mingze1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Mingze2.jpg';" onmouseout="this.src='images/profiles/Mingze1.jpg';">
+                    </a>
+                    <a href="student.html#Nicholas" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Nicholas Hall</p>
+                        <img src="images/profiles/Nicholas1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Nicholas2.jpg';" onmouseout="this.src='images/profiles/Nicholas1.jpg';">
+                    </a>
+                    <a href="student.html#Nicole" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Nicole David</p>
+                        <img src="images/profiles/Nicole1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Nicole2.jpg';" onmouseout="this.src='images/profiles/Nicole1.jpg';">
+                    </a>
+                    <a href="student.html#Nikkaella" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Nikkaella Lulu</p>
+                        <img src="images/profiles/Nikkaella1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Nikkaella2.jpg';" onmouseout="this.src='images/profiles/Nikkaella1.jpg';">
+                    </a>
+                    <a href="student.html#Paris" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Paris Robertson</p>
+                        <img src="images/profiles/Paris1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Paris2.jpg';" onmouseout="this.src='images/profiles/Paris1.jpg';">
+                    </a>
+                    <a href="student.html#Peiyi" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Peiyi Wu</p>
+                        <img src="images/profiles/Peiyi1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Peiyi2.jpg';" onmouseout="this.src='images/profiles/Peiyi1.jpg';">
+                    </a>
+                    <a href="student.html#Ravi" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Ravi Vathada</p>
+                        <img src="images/profiles/Ravi1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Ravi2.jpg';" onmouseout="this.src='images/profiles/Ravi1.jpg';">
+                    </a>
+                    <a href="student.html#Reivon" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Reivon Naballin</p>
+                        <img src="images/profiles/Reivon1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Reivon2.jpg';" onmouseout="this.src='images/profiles/Reivon1.jpg';">
+                    </a>
+                    <a href="student.html#Shiying" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Shiying Chen</p>
+                        <img src="images/profiles/Shiying1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Shiying2.jpg';" onmouseout="this.src='images/profiles/Shiying1.jpg';">
+                    </a>
+                    <a href="student.html#Sinuo" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Sinuo Feng</p>
+                        <img src="images/profiles/Sinuo1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Sinuo2.jpg';" onmouseout="this.src='images/profiles/Sinuo1.jpg';">
+                    </a>
+                    <a href="student.html#Suwan" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Suwan Wijetunge</p>
+                        <img src="images/profiles/Suwan1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Suwan2.jpg';" onmouseout="this.src='images/profiles/Suwan1.jpg';">
+                    </a>
+                    <a href="student.html#Zoey" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Xiaoching Chu</p>
+                        <img src="images/profiles/Zoey1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Zoey2.jpg';" onmouseout="this.src='images/profiles/Zoey1.jpg';">
+                    </a>
+                    <a href="student.html#Yanglun" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Yanglun Zhao</p>
+                        <img src="images/profiles/Yanglun1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Yanglun2.jpg';" onmouseout="this.src='images/profiles/Yanglun1.jpg';">
+                    </a>
+                    <a href="student.html#Yi" class="flex-student">
+                        <div class="colorFilter"></div>
+                        <p class="profText">Yi Lu</p>
+                        <img src="images/profiles/Yi1.jpg" class="placeholder-student" onmouseover="this.src='images/profiles/Yi2.jpg';" onmouseout="this.src='images/profiles/Yi1.jpg';">
+                    </a>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="spacer200"></div>
+    <footer class="grid-footer" id ="contact">
+        <img src="images/UoW-white.png">
+        <h2>For more information contact us</h2>
+        <div class="footerLinkHover">
+            <p>Email: <span><a href="mailto:degreeshow@waikato.ac.nz">degreeshow@waikato.ac.nz</a></span></p>
+            <p>Faculty phone: <span>0800 924 528</span></p>
+            <p>Faculty information: <span><a href="https://www.waikato.ac.nz/study/qualifications/bachelor-of-design">waikato.ac.nz/go/bdes</a></span></p>
+    
+            <p id="cr">&copy; 2024</p>
+        </footer>
+</body>
+</html>

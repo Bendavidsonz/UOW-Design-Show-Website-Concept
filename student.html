@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 341 Web template by Nikkaella Lulu, 2024 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+
+    <!-- Javascript for the responsive topnav -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body onload="pageLoad('student')">
+    <!--Noise overlay for entire page-->
+    <div id="overlay" class="noise"></div>
+
+    <!-- Responsive Top Nav -->
+    <nav class="topnav" id="myTopnav">
+        <div>
+            <a href="index.html" class="hover-underline-animation inactive">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <a href="students.html" class="hover-underline-animation">Students</a>
+        <a href="projects.html" class="hover-underline-animation inactive">Projects</a>
+        <a href="#contact" class="hover-underline-animation inactive">Contact</a>
+    </nav>
+
+    <div class="studentWrapper">
+        <div id="studentData">
+            <div>
+                <h1 id="studentName">Student Name</h1>
+                <h2 id="bachelor">Bachelor</h2>
+                <p id="major">Major</p>
+                <a id="portfolio">Portfolio</a>
+            </div>
+            
+            <div class="studentProfileCont">
+                <img src="images/placeholder-square.png" id="student-profile">
+            </div>
+        </div>
+        
+        <br>
+        <h2>Biography</h2>
+        <div id="bio">
+            <p>The student will talk about themselves here, what they are studying , their experiences, what they enjoy
+                etc.</p>
+        </div>
+        <br>
+        <h2>Project Description</h2>
+        <div id="productDesc">
+            <p>The student will describe their project, its use case, their inspiration, the target audience, its
+                functionality and so on.</p>
+        </div>
+        <br>
+        <h2 id ="projectName"></h2>
+        <div class="vidContainer">
+            <video id="student-vid" controls src="videos/Retro Slideshow - Nameplate.mp4"></video>
+        </div>
+    </div>
+
+
+    <footer class="grid-footer" id="contact">
+        <img src="images/UoW-white.png">
+        <h2>For more information contact us</h2>
+        <div class="footerLinkHover">
+            <p>Email: <span><a href="mailto:degreeshow@waikato.ac.nz">degreeshow@waikato.ac.nz</a></span></p>
+            <p>Faculty phone: <span>0800 924 528</span></p>
+            <p>Faculty information: <span><a
+                        href="https://www.waikato.ac.nz/study/qualifications/bachelor-of-design">waikato.ac.nz/go/bdes</a></span>
+            </p>
+
+            <p id="cr">&copy; 2024</p>
+    </footer>
+</body>
+
+</html>

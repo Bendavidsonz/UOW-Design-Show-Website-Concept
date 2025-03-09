@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 341 Web template by Nikkaella Lulu, 2024 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+
+    <!-- Javascript for the responsive topnav -->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!--Noise overlay for entire page-->
+    <div id="overlay" class="noise"></div>
+
+    <!-- Responsive Top Nav -->
+    <nav class="topnav" id="myTopnav">
+        <div>
+            <a href="index.html" class="hover-underline-animation inactive">Home</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <a href="students.html" class="hover-underline-animation inactive">Students</a>
+        <a href="projects.html" class="hover-underline-animation">Projects</a>
+        <a href="#contact" class="hover-underline-animation inactive">Contact</a>
+    </nav>
+
+    <!-- Main body, uses CSS grid, can have more nested divs -->
+    <div class="grid-container">
+        <!-- CSS Grid Side Nav -->
+        <!-- <div id="mySidenav" class="sidenav">
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div> -->
+
+        <!-- Main content from here downwards -->
+        <div class="grid-header">
+            <h1 class="header-h1">Projects</h1>
+        </div>
+
+        
+
+        <div class="grid-body">
+            <h2 class="ta-centre">All Projects</h2>
+
+            <div class="filter-buttons">
+                <button onclick="filterProjects('all')">All</button>
+                <button onclick="filterProjects('branding')">Branding</button>
+                <button onclick="filterProjects('print/pub')">Print/Publication</button>
+                <button onclick="filterProjects('product')">Product</button>
+                <button onclick="filterProjects('interaction')">Interaction</button>
+                <button onclick="filterProjects('mobile/web')">Mobile/Web</button>
+            </div>
+
+            <div class="flex-project-rows">
+                <div class="flex-project" data-tags="branding,print/pub">
+                    <div class="colorFilter"></div>
+                    <a href="student.html#Adam">
+                        <img src="images/projects/Adam.png" class="placeholder-img">
+                    </a>
+                    <div class="profText">
+                        <h2>Helping Unleash Brilliance (HUB)</h2>
+                        <p> Adam Ettema</p>
+                    </div>
+
+                </div>
+
+                <div class="flex-project" data-tags="product">
+                    <div class="colorFilter"></div>
+                    <a href="student.html#Allan">
+                        <img src="images/projects/Allan.png" class="placeholder-img">
+                    </a>
+                    <div class="profText">
+                        <h2>Fill in the blank</h2>
+                        <p>Allan Ormsby</p>
+                    </div>
+                </div>
+
+                <div class="flex-project" data-tags="interaction,mobile/web">
+                    <div class="colorFilter"></div>
+                    <a href="student.html#Anika">
+                        <img src="images/projects/Anika.png" class="placeholder-img">
+                    </a>
+                    <div class="profText">
+                        <h2>Soul Script</h2>
+                        <p>Anika Stowers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="spacer200"></div>
+    <footer class="grid-footer" id="contact">
+        <img src="images/UoW-white.png">
+        <h2>For more information contact us</h2>
+        <div class="footerLinkHover">
+            <p>Email: <span><a href="mailto:degreeshow@waikato.ac.nz">degreeshow@waikato.ac.nz</a></span></p>
+            <p>Faculty phone: <span>0800 924 528</span></p>
+            <p>Faculty information: <span><a
+                        href="https://www.waikato.ac.nz/study/qualifications/bachelor-of-design">waikato.ac.nz/go/bdes</a></span>
+            </p>
+
+            <p id="cr">&copy; 2024</p>
+    </footer>
+</body>
+
+</html>

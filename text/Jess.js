@@ -1,0 +1,7 @@
+let bioText = "Hello! I'm Jess from the sunny Tauranga, New Zealand. My love for design ignited during my final year of high school. Over the past three years, the support of my teachers has shaped me into the designer I am today, helping me transform my passion into a profession.<br>The area of design that has become my strength and passion is print design and my minor in sociology has given me valuable insights into our society and effective communication. I'm passionate about using design to connect with and impact the world around us.";
+let productDescText = "Growing up on a farm, I've always had a deep connection with nature, and I've witnessed first-hand the devastating impact that pests can have on our precious native species. That's why I'm committed to raising awareness and taking action to help New Zealand achieve its goal of becoming predator-free by 2050.<br>Naturez Voice’s social media page and monthly issued magazine are your go-to platforms for all things related to this vital cause. We'll provide you with engaging content, insightful articles, and inspiring stories of individuals and communities working tirelessly to eliminate pests and protect our native flora and fauna.<br>Together, we can make a difference and ensure that future generations can enjoy the beauty and biodiversity of our unique environment.";
+let bachelor ="Bachelor of __";
+let major = "Majoring In __";
+let projectName = "_Project Name_";
+let studentName = "_Student Name_";   
+let portfolio ="";

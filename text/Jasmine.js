@@ -1,0 +1,7 @@
+let bioText = "Hey there! I’m Jasmine Gorman, representing the small town of Te Aroha. I’ve always loved animation, theatre and drawing, so that’s where I always go back to for inspiration. As well as that, I love meeting people and gaining new insights from them, which is why I tend to lean towards people-focused projects such as this one. My years at Waikato and the opportunities that have come since (like murals and magazine work) have given me confidence in my skills and personal style, letting my own voice come through in my works.";
+let productDescText = "Menstrual products and branding tend towards being highly ‘feminine’ coded, e.g elegant, bubbly and/or clean. Not only can this feel stereotypical and unrealistic, but it also sets gender boundaries hat restrict woman, men, and those outside of the binary. My goal was to design a more grungy, aggressive and less gender-defined design for a menstrual product line, with an inclusive marketing campaign to go along with it. I hoped to capture the true spirit of menstruation whilst keeping a positive and empowering message.";
+let bachelor ="Bachelor of __";
+let major = "Majoring In __";
+let projectName = "_Project Name_";
+let studentName = "_Student Name_";   
+let portfolio ="";
