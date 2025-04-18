@@ -586,6 +586,7 @@ p, h5{
         padding: 12%;
     }
     .grid-body{
+        max-width: 95%;
         grid-column: 2 / 12;
         grid-row: 3 / 8;
         padding: 2%;
@@ -594,6 +595,10 @@ p, h5{
         grid-column: 2 / 12;
         grid-row: 8 / 12; 
         padding: 5%;
+    }
+
+    .header{
+      margin: 20px 0px;
     }
 
     /* If Side Nav is used, uncomment code below */
