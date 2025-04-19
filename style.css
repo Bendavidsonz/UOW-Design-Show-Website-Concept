@@ -182,10 +182,12 @@ video{
   justify-content: space-between;
   margin-bottom: 40px;
   align-items: center;
+  gap: 20px;
 }
 
 #studentData h1{
   color: var(--white);
+  margin-top: 0;
 }
 
 #portfolio{
@@ -605,6 +607,19 @@ p, h5{
     .flex-project{
       min-width: 0;
       width: 100% !important;
+    }
+
+    .studentWrapper{
+      padding: 60px 10% 200px 10%;
+    }
+    
+    #studentData{
+      gap: 0;
+    }
+
+    .studentProfileCont{
+      min-width: 130px;
+      margin-bottom: auto;
     }
 
     /* If Side Nav is used, uncomment code below */
